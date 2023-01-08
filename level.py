@@ -22,7 +22,7 @@ class Level:
             'object': import_csv_layout('csv/map_house&trees.csv')
         }
         graphics ={
-            'object': import_folder('images/other')
+            'object': import_folder('images/z_other')
         }
         print(graphics)
         for style, layout in layout.items():
