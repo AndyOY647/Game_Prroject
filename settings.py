@@ -1,5 +1,5 @@
 width = 960
-height = 960
+height = 600
 fps = 60
 tile_size = 48
 

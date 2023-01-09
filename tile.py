@@ -14,5 +14,5 @@ class Tile(pygame.sprite.Sprite):
         # Code below change the size of the rect used for the image
         # Hitbox is smaller than the drawing box by shrinking 5 px top and bottom
         # Still bigger than the character hitbox
-        self.hitbox = self.rect.inflate(-6,-30)
+        self.hitbox = self.rect.inflate(0,-23)
 

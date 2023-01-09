@@ -17,24 +17,50 @@ class Level:
 
     def create_map(self):
         layout = {
+            'fence': import_csv_layout('csv/map_fence.csv'),
+            'decor': import_csv_layout('csv/map_decor.csv'),
+            'house': import_csv_layout('csv/map_house.csv'),
+            'tree': import_csv_layout('csv/map_trees.csv'),
+            'flower': import_csv_layout('csv/map_flower.csv')
 
-            'little_decor': import_csv_layout('csv/map_little decor.csv'),
-            'object': import_csv_layout('csv/map_house&trees.csv')
         }
-        graphics ={
-            'object': import_folder('images/z_other')
+        graphics = {
+            'fence': import_folder('images/fence'),
+            'flower': import_folder('images/flower'),
+            'house': import_folder('images/house'),
+            'decor': import_folder('images/decor'),
+            'tree': import_folder('images/tree')
         }
-        print(graphics)
+
+
+
         for style, layout in layout.items():
             for row_index, row in enumerate(layout):
                 for col_index, col in enumerate(row):
+                    # print("{} , {}".format(row_index, col_index))
                     if col != '-1':
                         x = col_index * tile_size
                         y = row_index * tile_size
-                    if style == 'object':
-                        surf = graphics['object'][int(col)]
-                        Tile((x,y), [self.visible_sprites,self.obstacle_sprites],'object',surf )
-                        print(col)
+                        if style == 'fence':
+                            image_pos = graphics['fence'][col]
+                            Tile((x, y), [self.visible_sprites, self.obstacle_sprites], 'fence', image_pos)
+                        if style == 'tree':
+                            image_pos = graphics['tree'][col]
+                            Tile((x, y), [self.visible_sprites, self.obstacle_sprites], 'tree', image_pos)
+                        if style == 'flower':
+                            image_pos = graphics['flower'][col]
+                            Tile((x, y), [self.visible_sprites, self.obstacle_sprites], 'flower', image_pos)
+                        if style == 'decor':
+                            print(graphics['decor'])
+                            image_pos = graphics['decor'][col]
+                            Tile((x, y), [self.visible_sprites, self.obstacle_sprites], 'decor', image_pos)
+                        if style == 'house':
+                            image_pos = graphics['house'][col]
+                            Tile((x, y), [self.visible_sprites, self.obstacle_sprites], 'house', image_pos)
+
+
+
+
                 # if col == 'x':
                 #     Tile((x,y), [self.visible_sprites,self.obstacle_sprites])
                 # if col == 'p':
