@@ -12,6 +12,7 @@ class Level:
         self.display_surface = pygame.display.get_surface()
         # sprite group setup
         self.visible_sprites = YsortCameraGroup()
+        self.house_sprites = pygame.sprite.Group()
         self.obstacle_sprites = pygame.sprite.Group()
         self.create_map()
 
@@ -102,3 +103,5 @@ class YsortCameraGroup(pygame.sprite.Group):  # camera following the character
         for sprite in sorted(self.sprites(), key = lambda sprite: sprite.rect.centery):
             offset_pos = sprite.rect.topleft - self.offset
             self.display_surface.blit(sprite.image, offset_pos)
+
+
