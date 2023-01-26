@@ -3,59 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="487beb49-047f-4f1e-81b9-7dffb26c83f4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv/map_Tile Layer 1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/map_Tile Layer 1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv/map_decor.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv/map_house.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/map_house.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv/map_trees.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csv/map_trees.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/house/Other_Tiles_402.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/house/Other_Tiles_403.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/house/Other_Tiles_404.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/house/Other_Tiles_421.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/house/Other_Tiles_422.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/house/Other_Tiles_423.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/house/Other_Tiles_440.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/house/Other_Tiles_441.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/house/Other_Tiles_442.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/house/Other_Tiles_461.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/house/Other_Tiles_637.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/house/Other_Tiles_638.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/house/Other_Tiles_639.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/house/Other_Tiles_656.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/house/Other_Tiles_657.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/house/Other_Tiles_658.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/house/Other_Tiles_675.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/house/Other_Tiles_676.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/house/Other_Tiles_677.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/house/Other_Tiles_694.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/house/Other_Tiles_695.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/house/Other_Tiles_696.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/house/Other_Tiles_709.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/house/Other_Tiles_710.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/house/Other_Tiles_711.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/house/Other_Tiles_712.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/house/Other_Tiles_728.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/house/Other_Tiles_729.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/house/Other_Tiles_730.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/house/Other_Tiles_731.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/house/Other_Tiles_74.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/house/Other_Tiles_747.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/house/Other_Tiles_748.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/house/Other_Tiles_749.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/house/Other_Tiles_750.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/house/Other_Tiles_766.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/house/Other_Tiles_769.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/map/map.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/map/map.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tree/Other_Tiles_237.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tree/Other_Tiles_238.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tree/Other_Tiles_256.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tree/Other_Tiles_257.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tree/Other_Tiles_275.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tree/Other_Tiles_276.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/tree/Other_Tiles_287.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/decor/Other_Tiles_287.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/z_other/Other_Tiles_49.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/house/Other_Tiles_48.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/level.py" beforeDir="false" afterPath="$PROJECT_DIR$/level.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/player.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tile.py" beforeDir="false" afterPath="$PROJECT_DIR$/tile.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
